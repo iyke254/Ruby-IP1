@@ -1,5 +1,5 @@
 class String
-  define_method(:count_word) do |sentences|
+  define_method(:word_count) do |sentences|
     clean_sentences = sentences.downcase().delete '.,!:;'
     sentences_array = clean_sentences.split(" ")
     word_to_count = self.downcase().delete(" ")

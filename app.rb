@@ -11,5 +11,5 @@ end
 get('/result') do
   @word = params.fetch("word")
   @sentence = params.fetch("sentence")
-  @result = @word.count_word(@sentence)
+  @result = @word.word_count(@sentence)
 end
