@@ -1,7 +1,7 @@
 require('sinatra')
 require('sinatra/reloader')
   also_reload('lib/**/*.rb')
-require('./lib/count_word')
+require('./lib/word_count')
 
 
 get('/') do

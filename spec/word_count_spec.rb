@@ -1,6 +1,6 @@
 require('rspec')
 require('pry')
-require('count_word')
+require('word_count')
 
 describe('String#count_word') do
   it('returns the number of times a one word input appears in a sentence') do
